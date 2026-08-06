@@ -15,8 +15,3 @@ Aplicación web desarrollada en React que presenta mi hoja de vida digital.
 * CSS3
 * Git
 * GitHub
-
-## Ejecución del proyecto
-
-```bash id=
-```
