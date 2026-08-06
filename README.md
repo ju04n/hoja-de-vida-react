@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Aplicación web desarrollada en React que presenta una hoja de vida digital moderna.
+Aplicación web desarrollada en React que presenta mi hoja de vida digital.
 
 ## Tecnologías utilizadas
 
