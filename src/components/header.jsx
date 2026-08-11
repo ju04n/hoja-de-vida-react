@@ -1,24 +1,16 @@
 function Header() {
   return (
     <header className="header">
-      <h1 className="header-name">Juan Yara</h1>
+      <h1 className="header-name">Juan Carlos Yara Camelo</h1>
 
       <a
-        className="github-link"
         href="https://github.com/ju04n"
         target="_blank"
         rel="noreferrer"
+        className='github-link'
       >
         github.com/ju04n
       </a>
-
-      <nav className="nav">
-        <a href="#perfil">Perfil Profesional</a>
-        <a href="#educacion">Logros Académicos</a>
-        <a href="#experiencia">Experiencia Laboral</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
     </header>
   );
 }
