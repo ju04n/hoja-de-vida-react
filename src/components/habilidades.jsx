@@ -7,17 +7,17 @@ function Habilidades() {
 
       <div className='habilidades-galeria'>
         <figure className='hab-item'>
-          <img src='/react.png' alt='React' />
+          <img src='/imgs/react.png' alt='React' />
           <figcaption>Desarrollo web con React</figcaption>
         </figure>
 
         <figure className='hab-item'>
-          <img src='/github.png' alt='GitHub' />
+          <img src='/imgs/github.png' alt='GitHub' />
           <figcaption>Control de versiones con Git y GitHub</figcaption>
         </figure>
 
         <figure className='hab-item'>
-          <img src='/musica.png' alt='Música' />
+          <img src='/imgs/musica.jpg' alt='Música' />
           <figcaption>Música y creatividad</figcaption>
         </figure>
       </div>

@@ -16,8 +16,7 @@ function Contacto() {
           <input
             type='text'
             id='nombre'
-            placeholder='Ingrese su nombre'
-          />
+            placeholder='Ingrese su nombre'/>
         </div>
 
         <div className='form-group'>
@@ -25,8 +24,7 @@ function Contacto() {
           <input
             type='email'
             id='correo'
-            placeholder='Ingrese su correo'
-          />
+            placeholder='Ingrese su correo'/>
         </div>
 
         <fieldset className='form-group'>
