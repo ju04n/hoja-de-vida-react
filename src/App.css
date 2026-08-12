@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: #E9EDF3;
+  background: #F1F5F9;
 }
 
 .presentation {
@@ -30,7 +30,7 @@ body {
 
 /* Encabezado */
 .header {
-  background: #0B1020;
+  background: #0F172A;
   color: white;
   text-align: center;
   padding: 24px;
@@ -44,15 +44,18 @@ body {
 .github-link {
   display: inline-block;
   margin-top: 20px;
-  color: #8EC5FF;
+  color: #60A5FA;
   text-decoration: none;
   font-size: 1rem;
 }
 
+.github-link:hover {
+  color: #93C5FD;
+}
 
 /* Pie de pagina */
 .footer {
-  background-color: #0B1020;
+  background-color: #0F172A;
   color: white;
   text-align: center;
   padding: 16px;
@@ -207,8 +210,8 @@ body {
 }
 
 .edu-card {
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 18px;
   padding: 30px 20px;
   text-align: center;
@@ -267,8 +270,8 @@ body {
 }
 
 .exp-card {
-  background: #F8FAFC;
-  border: 1px solid #E2E8F0;
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
   border-radius: 18px;
   padding: 30px 20px;
   text-align: center;
@@ -437,7 +440,7 @@ fieldset {
 }
 
 .btn-enviar {
-  background: #0B1020;
+  background: #2563EB;
   color: white;
   border: none;
   padding: 14px;
@@ -449,9 +452,32 @@ fieldset {
 }
 
 .btn-enviar:hover {
-  background: #1E3A8A;
+  background: #1D4ED8;
 }
 
 .contacto-footer {
   margin-top: 35px;
+}
+
+.mensaje-exito {
+  background: #ECFDF5;
+  color: #065F46;
+  border: 1px solid #10B981;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.mensaje-error {
+  background: #FEF2F2;
+  color: #991B1B;
+  border: 1px solid #EF4444;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.btn-enviar:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
